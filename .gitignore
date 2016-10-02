@@ -1,0 +1,11 @@
+# Result
+/target/
+
+# Project
+/nbproject/
+/nb-configuration.xml
+/.project
+/.classpath
+
+# NPM
+/src/main/resources/static/node_modules/

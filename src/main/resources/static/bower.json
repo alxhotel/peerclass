@@ -1,0 +1,18 @@
+{
+	"name": "peerclass",
+	"description": "PeerClass is a virtual classroom based in WebRTC.",
+	"main": "index.js",
+	"authors": [
+		"Alex <alxmorais8@msn.com>"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/alxhotel/peerclass",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
