@@ -6,6 +6,12 @@ PeerClass is a virtual classroom based in WebRTC.
 
 #### WORK IN PROGRESS
 
+### Built with
+* [Spring framework](https://spring.io/) with [Kurento Room](https://github.com/Kurento/kurento-room)
+* [Angular 2](https://angular.io/) with [TypeScript](https://www.typescriptlang.org/)
+* [ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap)
+* [Angular Material](https://github.com/angular/material2)
+
 ## Setup
 ### Install for developers
 1) Get NPM modules:
