@@ -13,30 +13,64 @@ PeerClass is a virtual classroom based in WebRTC.
 * [Angular Material](https://github.com/angular/material2)
 
 ## Setup
-### Install for developers
-1) Get NPM modules:
-`cd src/main/resources/static && npm install`
+### 1) Install KMS (Kurento Media Server)
+#### [Option a] Ubuntu 14.04/15.04
+```
+echo "deb http://ubuntu.kurento.org trusty kms6" | sudo tee /etc/apt/sources.list.d/kurento.list
+wget -O - http://ubuntu.kurento.org/kurento.gpg.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install kurento-media-server-6.0
+```
+#### [Option b] Ubuntu 16.04
+```
+echo "deb http://ubuntu.kurento.org xenial kms6" | sudo tee /etc/apt/sources.list.d/kurento.list
+wget -O - http://ubuntu.kurento.org/kurento.gpg.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install kurento-media-server-6.0
+```
 
-2) Compile LESS files:
-`cd src/main/resources/static && gulp css`
+### 2) Start KMS
+```
+kurento-media-server-6.0 start
+```
 
-3) Compile TypeScript
-`cd src/main/resources/static && tsc`
-
-4) Compile with maven:
-`mvn compile exec:java`
-
-Open a browser and visit: `https://localhost:8443/`
-
-### Install for users
-1) Download and execute the lastest release:
-`java -jar peerclass-latest.jar`
-
-Open a browser and visit: `https://localhost:8443/`
-
-### Configuration
+### 3) Configuration
 
 TODO
+
+### 4) [Option a] Install and compile for developers
+3.1) Get NPM modules:
+```
+cd src/main/resources/static && npm install
+```
+
+3.2) Compile LESS files:
+```
+cd src/main/resources/static && gulp css
+```
+
+3.3) Compile TypeScript
+```
+cd src/main/resources/static && tsc
+```
+
+3.4) Compile with maven:
+```
+mvn compile exec:java
+```
+
+### 4) [Option b] Install and compile for users
+3.1) Download and execute the lastest release:
+```
+java -jar peerclass-latest.jar
+```
+
+### 5) Try it
+Open a browser and visit:
+```
+https://localhost:[port]
+```
+By default port is `8443`. Note: it uses `https`.
 
 ## TODO List
 
