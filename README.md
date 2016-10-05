@@ -4,6 +4,9 @@
 
 PeerClass is a virtual classroom based in WebRTC.
 
+#### Extension
+Note: To be able to share your screen you need a browser extension, you can find the repo [here](https://github.com/alxhotel/peerclass-extension).
+
 #### WORK IN PROGRESS
 
 ### Built with
