@@ -1,7 +1,5 @@
 # PeerClass
 
-[![Build Status](https://travis-ci.org/alxhotel/peerclass.svg?branch=master)](https://travis-ci.org/alxhotel/peerclass)
-
 PeerClass is a virtual classroom based in WebRTC.
 
 #### Extension
