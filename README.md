@@ -1,5 +1,7 @@
 # PeerClass
 
+[![Build Status](https://img.shields.io/github/workflow/status/alxhotel/peerclass/ci/master)](https://github.com/alxhotel/peerclass/actions)
+
 PeerClass is a virtual classroom based in WebRTC.
 
 #### Extension
